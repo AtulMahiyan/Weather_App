@@ -6,13 +6,19 @@ This Weather App provides real-time weather data and forecasts for major Indian 
 
 ## Table of Contents
 
-- Features
-- Tech Stack
-- Installation
-- Usage
-- Design Choices
-- Dependencies
-- License
+1. Features
+
+2. Tech Stack
+
+3. Installation
+
+4. Usage
+
+5. Design Choices
+
+6. Dependencies
+
+7. License
 
 ## Features
 
@@ -29,28 +35,41 @@ This Weather App provides real-time weather data and forecasts for major Indian 
      ```
 
 2. **Alert Module**: Allows users to set temperature, humidity, and wind speed limits. Sends an email alert when any threshold is breached.
-   - Input fields:
-     - Select City
-     - Temperature Limit (°C)
-     - Humidity Limit (%)
-     - Wind Speed Limit (m/s)
-     - Your Email
+   Input fields:
+      1. Select City
+      
+      2. Temperature Limit (°C)
+      
+      3. Humidity Limit (%)
+      
+      4. Wind Speed Limit (m/s)
+      
+      5. Your Email
 
 3. **Forecast Module**: Takes a city as input and provides a weather summary, including:
-   - Average Temperature
-   - Minimum and Maximum Temperature
-   - Average Humidity
-   - Average Wind Speed
-   - Graphs for temperature, humidity, and wind speed for the next 5 days.
+   1. Average Temperature
+
+   2. Minimum and Maximum Temperature
+
+   3. Average Humidity
+
+   4. Average Wind Speed
+
+   5. Graphs for temperature, humidity, and wind speed for the next 5 days.
 
 ## Tech Stack
 
-- HTML
-- CSS
-- JavaScript
-- EmailJS (for sending email alerts)
-- [Charting Library Name] (for plotting graphs)
-- OpenWeather API (for weather data)
+1. HTML
+
+2. CSS
+
+3. JavaScript
+
+4. EmailJS (for sending email alerts)
+
+5. [Charting Library Name] (for plotting graphs)
+
+6. OpenWeather API (for weather data)
 
 ## Installation
 
@@ -58,6 +77,7 @@ To set up the application, follow these steps:
 
 1. Open the repository:
    https://github.com/AtulMahiyan/Weather_App
+
 2. Download the project directory as zip:
 
 3. extract the zip file.
@@ -75,11 +95,31 @@ To set up the application, follow these steps:
 4. Use the forecast module to check the five-day weather summary and graphs.
 
 
+## Design Choices
+
+1. Modular Structure: Separate modules for homepage, alerts, and forecast for easy maintenance.
+
+2. Real-time Updates: Fetches live weather data with adjustable update intervals.
+
+3. Custom Alerts: Users set thresholds for temperature, humidity, and wind speed, triggering email notifications via EmailJS.
+
+4. Data Visualization: Uses a charting library for easy interpretation of 5-day weather trends.
+
+5. Responsive Design: Optimized for both mobile and desktop users.
+
+6. API Integration: Utilizes OpenWeather API for accurate global weather data.
+
+7. Scalability: Can be expanded to include more cities or features.
+
+8. Simplicity: User-friendly interface with intuitive inputs and clear data display.
+
+   
 ## Dependencies
 
 To run the application, ensure you have the following dependencies installed:
 
 1. EmailJS account for email alerts
+
 2. A valid API key from OpenWeather
 
 ## License
