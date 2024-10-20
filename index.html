@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        #temperature-switch {
+            display: flex;
+            gap: 10px; /* Add spacing between buttons */
+            margin-top: 10px;
+        }
+        
+        .city-weather {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        .weather-icon {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weather App</h1>
+    
+    <a href="alert.html">Set Weather Alert</a> <br>
+    <a href="forecast.html">Weather Forecast</a> <br>
+    <div>
+        <label for="interval-input">Update Interval:</label>
+        <input type="number" id="interval-input" placeholder="Enter Minutes" min="1">
+        <button id="set-interval">Set Interval</button>
+    </div>
+
+    <div id="temperature-switch">
+        <button id="show-celsius">°C</button>
+        <button id="show-kelvin">°K</button>
+        <button id="show-fahrenheit">°F</button>
+    </div>
+
+    <div id="weather-results"></div> <!-- Container for weather results -->
+
+    <script src="script.js"></script>
+</body>
+</html>
