@@ -57,9 +57,7 @@ This Weather App provides real-time weather data and forecasts for major Indian 
 To set up the application, follow these steps:
 
 1. Open the repository:
-   
-   https://github.com//weather-app.git
-
+   https://github.com/AtulMahiyan/Weather_App
 2. Download the project directory as zip:
 
 3. extract the zip file.
